@@ -12,4 +12,9 @@ public class CollegeController {
 		
 	return "its me";
 }
+	@RequestMapping("/hello")
+	public int show()
+	{
+		return 23+65+98+45;
+	}
 }
